@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* 你自己的样式 */
+
+@media (max-device-width : 1024px){
+    #form-venue-add {
+        overflow-y: auto;
+        max-height: 90vh;
+        padding-bottom:30px;
+    }
+}
+
+.f-14.td-manage a{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_length .select {
+    width: 80px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
